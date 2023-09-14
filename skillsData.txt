@@ -1,0 +1,4 @@
+darksoul_:50 59 50 50 50 60 22 30 42 
+spluxify:59 51 50 30 50 60 22 28 50 
+severedpanda:51 60 50 36 50 60 26 38 34 
+kingofthewinds:47 60 50 31 50 60 23 44 34 
