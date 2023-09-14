@@ -197,7 +197,7 @@ async def checkAuctions(playerList):
         else:
           break
 
-  #await channel.send("checking your data hehe")
+  
   await checkSkills(readSkillsData())
   await asyncio.sleep(90)
   await checkAuctions(playerList)
@@ -264,16 +264,7 @@ async def on_message(input):
         await input.channel.send("this person is currently online playing " +
                                  gameMode)
     else:
-      await input.channel.send("this person aint online bro skull emoji")
-  if (input.content.startswith("*skyblock")):
-    uuid = get_uuid(str(input.content[10:]))
-    items = [True,False,False,True]
-    x = 0
-    if(items[x]):
-      print("value is true")
-    else:
-      print("value is false")
-    await input.channel.send(info)
+      await input.channel.send("this person isn't online")
 
 
 keep_alive()
